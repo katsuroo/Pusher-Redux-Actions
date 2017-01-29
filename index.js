@@ -1,6 +1,6 @@
 'use strict';
 
-var Pusher = require('pusher-js');
+var Pusher = require('pusher-js/react-native');
 // on the one hand having global state is ugly, on the other it is easier to use it from anywhere
 var config = {
     socket: null,
