@@ -1,7 +1,7 @@
 {
-  "name": "react-native-pusher-redux",
+  "name": "pusher-redux-actions",
   "version": "0.0.1",
-  "description": "Integration of Pusher into Redux for react native",
+  "description": "Integration of Pusher into Redux for react native and react",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,8 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/TheRusskiy/pusher-redux.git"
+    "url": "https://github.com/katsuroo/Pusher-Redux-Actions.git"
   },
-  "author": "dimanrussian@gmail.com",
   "license": "MIT"
 }
