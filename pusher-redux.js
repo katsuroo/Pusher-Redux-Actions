@@ -89,7 +89,7 @@ module.exports.subscribe = function (channelName, eventName, actionType, actionC
     if (!eventSubs[actionType]) {
       eventSubs[actionType] = function (data) {
         var event   = { actionType: actionType, channelName: channelName, eventName: eventName, data: data };
-        var creator = actionCreator ? actionCreator(event) || pusherAction(event);
+        var creator = actionCreator ? actionCreator(event) : pusherAction(event);
 
         config.store.dispatch(creator);
       };
